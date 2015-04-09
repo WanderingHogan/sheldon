@@ -1,0 +1,30 @@
+html, body, .container, #map, .container {
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    position: absolute;
+}
+
+.container {
+	padding: 10px;
+}
+#map, .col-md-3, .col-md-9, .row{
+	padding: 0;
+	margin: 0;
+}
+.col-md-3, .col-sm-3 {
+	overflow-y: scroll;
+	overflow-x:hidden;
+	padding-right: 10px;
+}
+.col-md-9, .col-md-3, .row {
+	height: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+	text-align: center;
+	border-radius: 0;
+	font-size: 20px;
+}
